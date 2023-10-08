@@ -1,0 +1,52 @@
+.offered-activities {
+  text-align: center;
+}
+
+.offered-activities h1 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.offered-activities .placeholder-subtitle {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.offered-activities .activity {
+  display: inline-block;
+  margin: 0 10px 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.offered-activities .activity .activity-outline {
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+.offered-activities .activity img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offered-activities .activity h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.offered-activities .activity p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.offered-activities .activity .learn-more-button {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FC4521;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
