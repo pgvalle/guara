@@ -32,12 +32,13 @@
 
 .offered-activities .activity h2 {
   font-size: 18px;
+  color: #5D5A88;
   margin: 10px 0 5px;
 }
 
 .offered-activities .activity p {
   font-size: 14px;
-  color: #ccc;
+  color: #9795B5;
   margin: 5px 0;
 }
 
@@ -49,4 +50,10 @@
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+/* rounding corners of images inside activities */
+.offered-activities .activity img {
+  border-radius: 5px;
+  margin: 10px;
 }

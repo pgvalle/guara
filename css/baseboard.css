@@ -1,0 +1,27 @@
+#baseboard {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* center copyright */
+#baseboard .copyright {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
